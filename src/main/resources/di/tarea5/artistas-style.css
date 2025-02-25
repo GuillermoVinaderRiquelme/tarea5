@@ -1,0 +1,40 @@
+.border-pane {
+    -fx-background-color: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    -fx-padding: 20;
+}
+
+#titulo {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 8, 0.3, 0, 2);
+    -fx-alignment: center;
+    -fx-padding: 10 0 20 0;
+}
+
+.text {
+    -fx-font-family: "Cambria Math";
+    -fx-font-size: 16px;
+    -fx-fill: #000;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 8, 0.3, 0, 2);
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 8;
+    -fx-padding: 5;
+    -fx-background-radius: 8;
+}
+
+.list-cell {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5 10;
+    -fx-background-color: transparent;
+}
+
+.list-cell:hover {
+    -fx-background-color: #d6e0f5;
+}
